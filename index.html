@@ -2,12 +2,15 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8"/>
+	<meta name="viewport" 
+		  content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Notification</title>
+	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/noti.css"/>
 </head>
 <body>
 	<header>
-		<div class="logo">
+		<div class="logo left">
 			<img src="imagenes/logo.png"/>
 		</div>
 		<div class="titular">
@@ -15,8 +18,8 @@
 				Seguridad Publica Xalapa.ver
 			</h1>
 			<div>
-				<a href="#" class="filtro">
-					Responsive Desing
+				<a class="filtro" href="#">
+					Stylus
 				</a>				
 				<a href="#" class="publicar">
 					Publicar
@@ -24,11 +27,11 @@
 			</div>
 		</div>	
 		<div class="usuario">
-			 <figure class="contenedor">
+			 <figure class="avatar">
 			 	<img src="imagenes/avatar.jpg"/>
 			 </figure>
 			 <a href="#" class="flechita">
-			 	x
+			 	
 			 </a>
 		</div>
 	</header>
@@ -36,9 +39,11 @@
 		<ul class="menu">
 			<li><a href="#">Reportar Incidente</a></li>
 			<li><a href="#">Reportar Usuario</a></li>
+			<li><a href="#">Lugar del incidente</a></li>
+			<li><a href="#">Logout</a></li>
 		</ul>
 	</nav>
-	<section class="post">
+	<section class="posts">
 		<article class="post">
 			<div class="descripcion">
 			<figure class="imagen">
@@ -54,31 +59,181 @@
 					<a class="tag">PHP</a>
 					<p class="fecha">
 						hace <strong>20</strong> min</p>
-				</div>
-				<div class="datos">
-					<a class="comentario" href="#">10</a>
-					<a href="#" class="start">*</a>
-				</div>				
+				</div>			
 			</div>
 
-			<div class="accion">
+			<div class="acciones">
 				<div class="votos">
 					<a href="#" class="up"></a>
 					<span class="total">155</span>
 					 <a href="#" class="down"></a>
 				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita"></a>
+				</div>
 			</div>
 		</article>
+		<article class="post">
+			<div class="descripcion">
+			<figure class="imagen">
+				<img src="imagenes/foto.jpg">
+			</figure>
+				<div class="detalles">
+					<h2 class="titulo">
+						Reportes de la ciudad de xalapa veracruz
+					</h2>
+					<p class="autor">
+						Por <a href="#">SlasherWesker</a>
+					</p>
+					<a class="tag">PHP</a>
+					<p class="fecha">
+						hace <strong>20</strong> min</p>
+				</div>			
+			</div>
+
+			<div class="acciones">
+				<div class="votos">
+					<a href="#" class="up"></a>
+					<span class="total">155</span>
+					 <a href="#" class="down"></a>
+				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita"></a>
+				</div>
+			</div>
+		</article>
+		<article class="post">
+			<div class="descripcion">
+			<figure class="imagen">
+				<img src="imagenes/foto.jpg">
+			</figure>
+				<div class="detalles">
+					<h2 class="titulo">
+						Reportes de la ciudad de xalapa veracruz
+					</h2>
+					<p class="autor">
+						Por <a href="#">SlasherWesker</a>
+					</p>
+					<a class="tag">PHP</a>
+					<p class="fecha">
+						hace <strong>20</strong> min</p>
+				</div>			
+			</div>
+
+			<div class="acciones">
+				<div class="votos">
+					<a href="#" class="up"></a>
+					<span class="total">155</span>
+					 <a href="#" class="down"></a>
+				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita"></a>
+				</div>
+			</div>
+		</article>
+		<article class="post">
+			<div class="descripcion">
+			<figure class="imagen">
+				<img src="imagenes/foto.jpg">
+			</figure>
+				<div class="detalles">
+					<h2 class="titulo">
+						Reportes de la ciudad de xalapa veracruz
+					</h2>
+					<p class="autor">
+						Por <a href="#">SlasherWesker</a>
+					</p>
+					<a class="tag">PHP</a>
+					<p class="fecha">
+						hace <strong>20</strong> min</p>
+				</div>			
+			</div>
+
+			<div class="acciones">
+				<div class="votos">
+					<a href="#" class="up"></a>
+					<span class="total">155</span>
+					 <a href="#" class="down"></a>
+				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita"></a>
+				</div>
+			</div>
+		</article>
+		<article class="post">
+			<div class="descripcion">
+			<figure class="imagen">
+				<img src="imagenes/foto.jpg">
+			</figure>
+				<div class="detalles">
+					<h2 class="titulo">
+						Reportes de la ciudad de xalapa veracruz
+					</h2>
+					<p class="autor">
+						Por <a href="#">SlasherWesker</a>
+					</p>
+					<a class="tag">PHP</a>
+					<p class="fecha">
+						hace <strong>20</strong> min</p>
+				</div>			
+			</div>
+
+			<div class="acciones">
+				<div class="votos">
+					<a href="#" class="up"></a>
+					<span class="total">155</span>
+					 <a href="#" class="down"></a>
+				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita"></a>
+				</div>
+			</div>
+		</article>
+		<article class="post">
+			<div class="descripcion">
+			<figure class="imagen">
+				<img src="imagenes/foto.jpg">
+			</figure>
+				<div class="detalles">
+					<h2 class="titulo">
+						Reportes de la ciudad de xalapa veracruz
+					</h2>
+					<p class="autor">
+						Por <a href="#">SlasherWesker</a>
+					</p>
+					<a class="tag">PHP</a>
+					<p class="fecha">
+						hace <strong>20</strong> min</p>
+				</div>			
+			</div>
+
+			<div class="acciones">
+				<div class="votos">
+					<a href="#" class="up"></a>
+					<span class="total">155</span>
+					 <a href="#" class="down"></a>
+				</div>
+				<div class="datos">
+					<a href="#" class="comentarios">10</a>
+					<a href="#" class="estrellita"></a>
+				</div>
+			</div>
+		</article>						
 	</section>
 	<footer>
-		<h3 class="fpowerd">
+		<h3>
 			<strong>
 				Powerd by Slasher
 			</strong>
-		</h3>
-		<span class="fcorp">
+		<span class="mejor">
 			Slasher Corp.
 		</span>
+		</h3>
 	</footer>
 </body>
 </html>
